@@ -333,6 +333,10 @@ function generateMatcher(selector) {
                 throw new Error(`Unknown class name: ${selector.name}`);
             };
         }
+
+        case 'scope': {
+            return (node, ancestry) => ancestry.length === 0;
+        }
     }
 
     throw new Error(`Unknown selector type: ${selector.type}`);

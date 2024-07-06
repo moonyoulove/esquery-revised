@@ -1,3 +1,10 @@
+Add new selector:
+`:scope`: represents the root node of the current query, similar to [here](https://developer.mozilla.org/en-US/docs/Web/CSS/:scope "here").
+
+The original readme is as follows:
+
+------------
+
 ESQuery is a library for querying the AST output by Esprima for patterns of syntax using a CSS style selector system. Check out the demo:
 
 [demo](https://estools.github.io/esquery/)
